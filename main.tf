@@ -1,3 +1,6 @@
+# This quite clearly does not follow section 3.2.2 of RFC4193.
+# https://datatracker.ietf.org/doc/html/rfc4193#section-3.2.2
+
 resource "random_id" "ula" {
   byte_length = 5
 }
